@@ -18,9 +18,7 @@ const NumberField: React.FC<Props> = ({
   return (
     <Box
       sx={{
-        display: "flex",
-        alignItems: "center",
-        "& > :not(style)": { m: 1 },
+        "& .MuiTextField-root": { m: 1, width: "25ch" },
       }}
     >
       <TextField

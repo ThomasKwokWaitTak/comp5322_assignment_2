@@ -21,7 +21,7 @@ export default function Home() {
     <>
       <h2 className={styles.title}>Comp5322 Currency Converter</h2>
       <div className={styles.conversion}>
-        <div>
+        <div className={styles.currency}>
           <SelectField
             value={fromCurrency}
             handleChange={setFromCurrency}
@@ -35,7 +35,7 @@ export default function Home() {
         <div className={styles.arrow}>
           <EastIcon color="primary" />
         </div>
-        <div>
+        <div className={styles.currency}>
           <SelectField
             value={toCurrency}
             handleChange={setToCurrency}
