@@ -1,0 +1,28 @@
+.conversion {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.arrow {
+  align-self: center;
+  justify-self: center;
+  padding: 0 20px;
+}
+
+.amount {
+  margin-top: 10px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
